@@ -1,16 +1,26 @@
-# shopping_app
+# Flutter Shopping App
 
-A new Flutter project.
+A Flutter shopping app built from scratch as part of my learning journey.
 
-## Getting Started
+## Features
+- Product listing & detail pages
+- Wishlist (Favorites) with persistent state
+- Cart functionality
+- Size & quantity selection
+- Total price calculation
+- Provider-based state management (Wishlist)
+- Clean UI & UX
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter
+- Dart
+- Provider (State Management)
 
-A few resources to get you started if this is your first Flutter project:
+## Learning Journey
+Started with a Currency Converter app, then a Weather app.
+Instead of following a tutorial for this shopping app, I built it independently to test my understanding.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Current Status
+Wishlist state is centralized using Provider.
+Cart state is currently managed using local state (`setState`).
+Next step: refactor cart to Provider.
